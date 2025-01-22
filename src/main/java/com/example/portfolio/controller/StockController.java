@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins ="https://capx-portfolio-tracker.netlify.app/")
+@CrossOrigin(origins ="https://capx-portfolio-tracker.netlify.app")
 @RestController
 @RequestMapping("/api/stocks")
 public class StockController {
