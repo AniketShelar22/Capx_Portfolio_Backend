@@ -65,7 +65,7 @@ public class StockServiceImpl implements StockService {
        // String apiKey = "30CO7P3MM54Y0GK3";
         // String apiKey = "A7ABH0K2MWHX9I78";
         //String apiKey = "TNCP2RGNPOAGN9ST";
-        //String url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=" + ticker + "&apikey=" + apiKey;
+        String url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=" + ticker + "&apikey=" + apiKey;
 
         RestTemplate restTemplate = new RestTemplate();
 
