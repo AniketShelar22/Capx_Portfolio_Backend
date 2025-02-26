@@ -60,7 +60,7 @@ public class StockServiceImpl implements StockService {
      * @return the current price as a BigDecimal
      */
     private BigDecimal fetchRealTimePrice(String ticker) {
-       String apiKey = "IOW2CU52KSZ5IUA9"; // Replace with your actual API key
+       String apiKey = "AN5P3Q1OX20OM11U"; // Replace with your actual API key
         // String apiKey = "cuvaad9r01qpi6ru8s6gcuvaad9r01qpi6ru8s70";
        // String apiKey = "30CO7P3MM54Y0GK3";
         // String apiKey = "A7ABH0K2MWHX9I78";
