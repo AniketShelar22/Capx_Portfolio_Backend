@@ -61,11 +61,11 @@ public class StockServiceImpl implements StockService {
      */
     private BigDecimal fetchRealTimePrice(String ticker) {
        // String apiKey = "IOW2CU52KSZ5IUA9"; // Replace with your actual API key
-        String apiKey = "NJ9DX4CNHL7AZ5Z4";
+        String apiKey = "cuvaad9r01qpi6ru8s6gcuvaad9r01qpi6ru8s70";
        // String apiKey = "30CO7P3MM54Y0GK3";
         // String apiKey = "A7ABH0K2MWHX9I78";
         //String apiKey = "TNCP2RGNPOAGN9ST";
-        String url = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=" + ticker + "&apikey=" + apiKey;
+String url = "https://finnhub.io/api/v1/quote?symbol=" + ticker + "&token=" + apiKey;
 
         RestTemplate restTemplate = new RestTemplate();
 
